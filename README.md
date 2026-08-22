@@ -1,7 +1,6 @@
-# azure-infrastructure-monitoring-incident-management
-Azure infrastructure, monitoring, incident management, troubleshooting, and automation portfolio project using Microsoft Azure, Entra ID, Azure Monitor, Log Analytics, KQL, PowerShell, Azure CLI, and SQL.
-Azure Infrastructure, Monitoring & Incident Management
-Project Overview
+# Azure Infrastructure, Monitoring & Incident Management
+
+## Project Overview
 
 This project demonstrates the design, implementation, monitoring, and troubleshooting of a Microsoft Azure infrastructure environment.
 
@@ -11,45 +10,50 @@ It also simulates real-world IT support and infrastructure incidents involving a
 
 The project follows an end-to-end incident management workflow:
 
-Monitoring → Alert Detection → Investigation → Troubleshooting → Root Cause Analysis → Resolution → Validation → Documentation
+**Monitoring → Alert Detection → Investigation → Troubleshooting → Root Cause Analysis → Resolution → Validation → Documentation**
 
-Project Objectives
-Build and manage Azure infrastructure.
-Configure virtual networks, subnets, and Network Security Groups.
-Deploy and administer Windows and Linux virtual machines.
-Configure Microsoft Entra ID users, groups, and role-based access control.
-Implement Azure Monitor and Log Analytics.
-Use KQL to investigate infrastructure and application telemetry.
-Simulate and troubleshoot common IT infrastructure incidents.
-Perform root-cause analysis and document incident resolutions.
-Analyse incident data using SQL.
-Automate routine Azure administration tasks using PowerShell and Azure CLI.
-Maintain technical documentation and knowledge-base articles.
-Technologies
-Microsoft Azure
-Azure Virtual Machines
-Azure Virtual Network
-Network Security Groups
-Microsoft Entra ID
-Azure RBAC
-Azure Monitor
-Log Analytics
-KQL
-Windows Server
-Linux
-PowerShell
-Azure CLI
-SQL
-Project Status
+## Project Objectives
 
-🚧 In Progress
+* Build and manage Azure infrastructure.
+* Configure virtual networks, subnets, and Network Security Groups.
+* Deploy and administer Windows and Linux virtual machines.
+* Configure Microsoft Entra ID users, groups, and role-based access control.
+* Implement Azure Monitor and Log Analytics.
+* Use KQL to investigate infrastructure and application telemetry.
+* Simulate and troubleshoot common IT infrastructure incidents.
+* Perform root-cause analysis and document incident resolutions.
+* Analyse incident data using SQL.
+* Automate routine Azure administration tasks using PowerShell and Azure CLI.
+* Maintain technical documentation and knowledge-base articles.
+
+## Technologies
+
+* Microsoft Azure
+* Azure Virtual Machines
+* Azure Virtual Network
+* Network Security Groups
+* Microsoft Entra ID
+* Azure RBAC
+* Azure Monitor
+* Log Analytics
+* KQL
+* Windows Server
+* Linux
+* PowerShell
+* Azure CLI
+* SQL
+
+## Project Status
+
+🚧 **In Progress**
 
 The project is being developed step-by-step, with implementation evidence, screenshots, scripts, incident documentation, and troubleshooting procedures added throughout the build.
 
-Architecture
+## Architecture
 
 The final environment will include:
 
+```text
                     Microsoft Entra ID
                            |
                       Azure RBAC
@@ -79,27 +83,32 @@ The final environment will include:
                   SQL Analysis
                          |
                  Knowledge Base
-Incident Management Workflow
+```
+
+## Incident Management Workflow
 
 The project will simulate incidents such as:
 
-Authentication failures
-Network connectivity issues
-High CPU/resource utilisation
-Application or service failures
+* Authentication failures
+* Network connectivity issues
+* High CPU/resource utilisation
+* Application or service failures
 
 Each incident will be investigated using a structured process:
 
-Identify the issue.
-Assess impact.
-Collect evidence.
-Analyse logs and metrics.
-Identify the probable root cause.
-Apply corrective action.
-Validate the resolution.
-Document the incident.
-Record preventive or follow-up actions.
-Repository Structure
+1. Identify the issue.
+2. Assess impact.
+3. Collect evidence.
+4. Analyse logs and metrics.
+5. Identify the probable root cause.
+6. Apply corrective action.
+7. Validate the resolution.
+8. Document the incident.
+9. Record preventive or follow-up actions.
+
+## Repository Structure
+
+```text
 ├── architecture/
 ├── azure-cli/
 ├── powershell/
@@ -108,21 +117,24 @@ Repository Structure
 ├── incidents/
 ├── knowledge-base/
 └── screenshots/
-Learning Outcomes
+```
+
+## Learning Outcomes
 
 Through this project, I am developing practical experience in:
 
-Azure infrastructure administration
-Cloud networking
-Identity and access management
-Infrastructure monitoring
-Log analysis
-Incident management
-Technical troubleshooting
-Root-cause analysis
-SQL-based data analysis
-PowerShell and Azure CLI automation
-Technical documentation
-Disclaimer
+* Azure infrastructure administration
+* Cloud networking
+* Identity and access management
+* Infrastructure monitoring
+* Log analysis
+* Incident management
+* Technical troubleshooting
+* Root-cause analysis
+* SQL-based data analysis
+* PowerShell and Azure CLI automation
+* Technical documentation
+
+## Disclaimer
 
 This is a personal Azure lab and portfolio project created for learning and demonstrating practical technical skills. No production systems or confidential data are used.
