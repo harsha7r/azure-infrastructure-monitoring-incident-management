@@ -1,0 +1,23 @@
+Event
+| where Computer == "vm-win-srv01"
+| where EventID == 4625
+| extend
+    TargetUserName = extract(@"<Data Name=""TargetUserName"">(.*?)</Data>", 1, EventData),
+    TargetDomainName = extract(@"<Data Name=""TargetDomainName"">(.*?)</Data>", 1, EventData),
+    LogonType = extract(@"<Data Name=""LogonType"">(.*?)</Data>", 1, EventData),
+    Status = extract(@"<Data Name=""Status"">(.*?)</Data>", 1, EventData),
+    SubStatus = extract(@"<Data Name=""SubStatus"">(.*?)</Data>", 1, EventData),
+    IpAddress = extract(@"<Data Name=""IpAddress"">(.*?)</Data>", 1, EventData),
+    WorkstationName = extract(@"<Data Name=""WorkstationName"">(.*?)</Data>", 1, EventData)
+| project
+    TimeGenerated,
+    Computer,
+    TargetUserName,
+    TargetDomainName,
+    LogonType,
+    Status,
+    SubStatus,
+    IpAddress,
+    WorkstationName,
+    RenderedDescription
+| sort by TimeGenerated desc
