@@ -43,11 +43,6 @@ The project follows an end-to-end incident management workflow:
 * Azure CLI
 * SQL
 
-## Project Status
-
-🚧 **In Progress**
-
-The project is being developed step-by-step, with implementation evidence, screenshots, scripts, incident documentation, and troubleshooting procedures added throughout the build.
 
 ## Architecture
 
@@ -135,6 +130,3 @@ Through this project, I am developing practical experience in:
 * PowerShell and Azure CLI automation
 * Technical documentation
 
-## Disclaimer
-
-This is a personal Azure lab and portfolio project created for learning and demonstrating practical technical skills. No production systems or confidential data are used.
