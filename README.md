@@ -61,8 +61,8 @@ The final environment will include:
              Windows Subnet    Linux Subnet
                   |                 |
              Windows VM          Linux VM
-                  \                 /
-                   \               /
+                  \                 
+                   \               
                     Azure Monitor
                          |
                    Log Analytics
