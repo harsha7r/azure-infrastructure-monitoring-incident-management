@@ -3,6 +3,6 @@ Heartbeat
 | sort by TimeGenerated desc
 | take 20
 
----
-```text
+```
 It verifies that vm-win-srv01 is sending heartbeat data to Log Analytics through Azure Monitor.
+```
