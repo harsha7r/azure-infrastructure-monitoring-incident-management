@@ -1,0 +1,4 @@
+Heartbeat
+| where Computer contains "vm-win-srv01"
+| sort by TimeGenerated desc
+| take 20
