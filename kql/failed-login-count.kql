@@ -1,0 +1,5 @@
+Event
+| where Computer == "vm-win-srv01"
+| where EventID == 4625
+| summarize FailedLogins = count() by bin(TimeGenerated, 5m)
+| sort by TimeGenerated desc
